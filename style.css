@@ -8,6 +8,8 @@
 /* GENERICS*/
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+
 }
 header{
     text-align: center;
@@ -31,10 +33,9 @@ header{
     padding: 0px 140px;
 }
 .container{
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 1500px;
     background-color: black;
-    margin-bottom: 20px;
+    
     
 }
 .float-left{
