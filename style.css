@@ -16,3 +16,13 @@ header{
 #top-text{
     margin: 50px;
 }
+
+/* blocchi */
+
+.container{
+    width: 250px;
+    height: 70px;
+    border: 1px black dashed;
+    margin: 0 auto;
+    padding: 10px;
+}
