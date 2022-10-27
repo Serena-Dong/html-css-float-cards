@@ -20,9 +20,42 @@ header{
 /* CARD */
 
 .container{
-    width: 250px;
-    height: 70px;
+    max-width: 350px;
     border: 1px black dashed;
     margin: 0 auto;
+    background-color: black;
+    
+}
+.float-left{
+    float: left;
+    height: 10px auto;
+    display: inline-block;
+}
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+img{
+    height: 90px;
+}
+
+/* text */
+
+.text{
     padding: 10px;
+    display: inline-block;
+    
+}
+.name, .role{
+    color: white;
+    margin: 4px auto;
+}
+.email{
+    color: rgb(0, 187, 255);
+    margin: 2px auto;
+}
+.skinny{
+    font-size: 15px;
 }
