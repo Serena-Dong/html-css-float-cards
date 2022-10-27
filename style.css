@@ -1,8 +1,11 @@
+/* RESET*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* GENERICS*/
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -21,14 +24,14 @@ header{
 
 .container{
     max-width: 350px;
-    border: 1px black dashed;
     margin: 0 auto;
     background-color: black;
+    margin-bottom: 20px;
     
 }
 .float-left{
     float: left;
-    height: 10px auto;
+    height: 10px ;
     display: inline-block;
 }
 .clearfix::after{
